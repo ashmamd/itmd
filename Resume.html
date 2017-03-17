@@ -3,47 +3,11 @@
     <head>
         <meta charset = "UTF-8">
         <title>Resume</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
-         <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-        <style>
-            .name{
-                font-family: 'Shadows Into Light', cursive;
-                text-align: center;
-            }
-            .address{
-                font-family: 'Slabo 27px', serif;
-                text-align: left;
-            }
-            .email{
-                font-family: 'Slabo 27px', serif;
-                text-align: right;
-            }
-            p{
-                font-family: 'Slabo 27px', serif;
-
-            }
-            li{
-                font-family: 'Slabo 27px', serif;
-            }
-            h3{
-                font-family: 'Slabo 27px', serif;
-            }
-            .floatLeft{
-                float : left;
-            }
-            .floatRight{
-                float : right;
-            }
-            .clearme{
-                clear : both;
-            }
-            #nav{
-                font-family: 'Lora', serif;
-                color: #4d4d00;
-            }
-        </style>
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -57,12 +21,11 @@
             </nav>
         </header>
         <hr>
-        <h1 class = "name">Ashma Manandhar</h1>
-        <p class = "address">Park Ridge, IL. 60068</p>
-        <p class =" email">amanandh@hawk.iit.edu</p>
+        <h1 id = "website">Ashma Manandhar</h1>
+        <p>Park Ridge, IL. 60068<span>amanandh@hawk.iit.edu</span></p>
         <hr>
         
-        <section id ="objective">
+        <section id ="objective"> 
             <h3>Objective</h3>
             <p>
                 An internship opportunity where I can get an idea of how the Computer Science field looks like. 
@@ -70,24 +33,18 @@
             </p>
         </section>
         
-        <br>
-        
         <section id ="school">
             <h3>Education</h3>
-            <p class = "floatLeft">
-                Illinois Institute of Technology <br>
+            <p>
+                Illinois Institute of Technology
+                <span>May 2020</span> <br>
                 Computer Science
             </p>
-            <p class = "floatRight">May 2020</p>
         </section>
-    
-        <br>
-        <br>
-        <br>
         
         <section id ="work">
             <h3>Work Experience</h3>
-            <img class = "clearme" src = "http://static.wixstatic.com/media/19be64_84baed06f30c4b3cb26beb1737dbfcd9.jpg" width = "120" height = "130" alt = "CMAA logo">
+            <img class = "clearme" src = "http://static.wixstatic.com/media/19be64_84baed06f30c4b3cb26beb1737dbfcd9.jpg" width = "110" height = "120" alt = "CMAA logo">
             <a href = "http://www.chinesemutualaid.org">Chinese Mutual Aid Association</a>
                 : <i>Data Entry Clerk </i>
             <ul>
@@ -95,7 +52,7 @@
                 <li>Reporting problems with the data</li>
                 <li>Keeping customer information confidential</li>
             </ul>
-            <img class ="clearme" src = "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Dunkin'_Donuts_logo.svg/1280px-Dunkin'_Donuts_logo.svg.png" width = "200" height = "130" alt = "DD logo">
+            <img class ="clearme" src = "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Dunkin'_Donuts_logo.svg/1280px-Dunkin'_Donuts_logo.svg.png" width = "150" height = "120" alt = "DD logo">
             <a href = "https://www.dunkindonuts.com/dunkindonuts/en.html"> Dunkin Donuts</a>
                :  <i>Cashier, Coffee and Sandwich station</i>
             <ul>
@@ -103,9 +60,9 @@
                 <li>Worked efficiently on several fields of the store</li>
             </ul>
         </section>
-        
-        <footer id = "footer">
-            <p>Created by the one and only, Ashma Manandhar</p>
+        <hr>
+        <footer>
+            <p>Created by the one and only, <br> Ashma Manandhar</p>
             <address>
                 <p><a href = "mailto:amanandh@hawk.iit.edu">Mail</a></p>
             </address>
