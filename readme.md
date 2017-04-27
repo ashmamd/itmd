@@ -1,6 +1,6 @@
 This is the README file.
 
-This is the first and second project of my ITMD class.
+This is the project for my ITMD class.
 
 It includes a total of <i>four</i> html pages.
 <ol>
